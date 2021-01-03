@@ -4,13 +4,13 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 import time
 
-user = "admin@adimax.com.br"
-password = "123456"
+user = "admin@.com.br"
+password = ""
 
 driver = webdriver.Chrome()
 
 print("Iniciando o robo de testes Login...\n")
-driver.get("https://adimaxproappwebqa.azurewebsites.net/login")
+driver.get("https://appwebqa.azurewebsites.net/login")
 driver.save_screenshot("./images/Loading.png")
 time.sleep(8)
 
