@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "visualstudioexptteam.vscodeintellicode",
+        "ms-python.vscode-pylance",
+        "ms-toolsai.jupyter",
+        "ms-python.python"
+    ]
+}
